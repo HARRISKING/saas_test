@@ -14,7 +14,6 @@ class Page extends React.Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    console.log('e点击了提交查询', e)
     this.props.form.validateFields((err, values) => {
       if (!err) {
         this.props.onRefresh({
