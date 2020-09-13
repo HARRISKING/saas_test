@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import PageFilter from './component/pages/filter/index.jsx';
 import filterConfig from './filterConfig'
@@ -9,9 +8,7 @@ class App extends React.Component {
     super(props)
   }
 
-  componentDidMount() {
-
-  }
+  componentDidMount() { }
 
   // 调用筛选子组件
   onChildRef = (self, type) => {
@@ -19,8 +16,8 @@ class App extends React.Component {
   }
 
 
-  refresh = () => {
-
+  refresh = (data = {}) => {
+    console.log('data>>>>>', data)
   }
 
   render() {
