@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import PageFilter from './component/pages/filter/index.jsx';
 import PageTable from './component/pages/table/index.jsx';
 import filterConfig from './filterConfig'
